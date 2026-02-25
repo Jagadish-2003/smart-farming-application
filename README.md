@@ -9,23 +9,6 @@
 
 A full-stack frontend web application built for Indian farmers to make **data-driven agricultural decisions** using modern web technologies.
 
----
-
-## 🖥️ Live Demo
-
-🔗 [View Live App](#) ← *(add your Vercel link here after deploying)*
-
----
-
-## 📸 Screenshots
-
-| Login Page | Home Dashboard |
-|------------|----------------|
-| ![Login](#) | ![Dashboard](#) |
-
-| Crop Recommendation | Weather Module |
-|---------------------|----------------|
-| ![Crops](#) | ![Weather](#) |
 
 ---
 
