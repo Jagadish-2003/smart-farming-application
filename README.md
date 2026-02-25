@@ -1,16 +1,151 @@
-# React + Vite
+🌾 Smart Farming Application :
+A modern web application that enables:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Smart crop selection without guesswork
 
-Currently, two official plugins are available:
+Real-time weather monitoring
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Direct market price access without middlemen
 
-## React Compiler
+Seasonal crop recommendations
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project demonstrates frontend architecture, API integration, and algorithm-based decision support using React and Tailwind CSS.
 
-## Expanding the ESLint configuration
+📸 Screenshots :
+🔐 Login Page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🏠 Dashboard
+
+🌾 Crop Recommendation
+
+🌤 Weather Information
+
+💰 Market Prices
+
+📅 Seasonal Crops
+
+🛠 Tech Stack:
+React.js (v18)
+
+React Router v6
+
+Tailwind CSS
+
+Vite
+
+OpenWeatherMap API
+
+LocalStorage (Authentication)
+
+Git & GitHub
+
+🧠 Core Features :
+1️⃣ Crop Recommendation Engine
+
+Uses 7 soil & climate parameters:
+
+Nitrogen (N)
+
+Phosphorus (P)
+
+Potassium (K)
+
+pH
+
+Temperature
+
+Humidity
+
+Rainfall
+
+Implements a weighted scoring algorithm
+
+Displays top 5 crop matches with percentage score
+
+2️⃣ Weather API Integration
+
+Fetches real-time weather data
+
+Displays:
+
+Temperature
+
+Humidity
+
+Wind Speed
+
+Rainfall
+
+Uses async/await with error handling
+
+3️⃣ Market Price Monitoring
+
+Displays APMC wholesale crop prices
+
+Includes price change indicators
+
+4️⃣ Seasonal Crop Guidance
+
+Auto-detects agricultural seasons:
+
+Kharif
+
+Rabi
+
+Zaid
+
+Dynamically filters crops based on current month
+
+5️⃣ Authentication & Route Protection
+
+User registration & login
+
+Session stored in LocalStorage
+
+Protected routes using custom ProtectedRoute
+
+📂 Project Structure :
+src/
+├── components/
+│   ├── Navbar.jsx
+│   └── ProtectedRoute.jsx
+├── pages/
+│   ├── Login.jsx
+│   ├── Register.jsx
+│   ├── Home.jsx
+│   ├── CropRecommend.jsx
+│   ├── Weather.jsx
+│   ├── MarketPrices.jsx
+│   └── SeasonalCrops.jsx
+├── data/
+│   └── crops.js
+├── App.jsx
+└── main.jsx
+
+⚙️ Installation & Setup :
+Clone the repository:
+
+git clone https://github.com/your-username/smart-farming-application.git
+cd smart-farming-application
+
+Install dependencies:
+
+npm install
+
+Create .env file in project root:
+
+VITE_WEATHER_KEY=your_openweathermap_api_key
+
+Start development server:
+
+npm run dev
+
+Open:
+
+http://localhost:5173
+
+
+👨‍💻 Author :
+Jagadish T S
+B.Tech Computer Engineering
+Presidency University
